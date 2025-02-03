@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - FrejusteDev</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css">
+    <link rel="stylesheet" href="./app.css">
+    <script type="module" src="./app.js" defer></script> <!-- Ajout de defer pour améliorer le chargement -->
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="header">
+                <img src="./Assets/img/photo.jpg" alt="Photo de Kei Prince Frejuste" id="photo">
+                <h2 class="name">Kei Prince Frejuste</h2>
+            </div>
+            <button type="button" id="downloadBtn">Télécharger CV</button>
+            <div class="footer">
+                <a id="mail" class="brand-link" href="mailto:kiefrejuste26@gmail.com" target="_blank" aria-label="Envoyer un email"></a>
+                <a id="linkedin" class="brand-link" href="https://www.linkedin.com/in/princekei/" target="_blank" aria-label="Mon profil LinkedIn"></a>
+                <a id="github" class="brand-link" href="https://github.com/Frejuste26" target="_blank" aria-label="Mon profil GitHub"></a>
+            </div>
+        </aside>
+        <main class="main" id="main">
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-items active">
+                    <span class="icon"><i class="fi fi-br-house-chimney"></i></span>
+                    <span>Accueil</span>
+                </a>
+                <a href="#knowlege" class="nav-items">
+                    <span class="icon"><i class="fi fi-br-graduation-cap"></i></span>
+                    <span>Compétences</span>
+                </a>
+                <a href="#portfolio" class="nav-items">
+                    <span class="icon"><i class="fi fi-br-workflow-setting-alt"></i></span>
+                    <span>Portfolio</span>
+                </a>
+                <a href="#contact" class="nav-items">
+                    <span class="icon"><i class="fi fi-br-address-book"></i></span>
+                    <span>Contact</span>
+                </a>
+            </nav>
+            <section class="section" id="home">
+                <h2>Bienvenue sur mon portfolio</h2>
+                <p>Développeur web et Backend</p>
+                <nav class="sub-menu">
+                    <a href="#formations" class="sub-nav-items visited">
+                        <span class="icon"><i class="fi fi-br-student-alt"></i></span>
+                        <span>Formations</span>
+                    </a>
+                    <a href="#experiences" class="sub-nav-items">
+                        <span class="icon"><i class="fi fi-br-workflow-setting-alt"></i></span>
+                        <span>Expériences</span>
+                    </a>
+                    <a href="#interest" class="sub-nav-items">
+                        <span class="icon"><i class="fi fi-br-brain-circuit"></i></span>
+                        <span>Intérêts</span>
+                    </a>
+                </nav>
+               <!-- Section for Formations -->
+               <div id="formations" class="sub-section">
+                <h3>Formations</h3>
+                <div class="formations-container slider-content">
+                    <div class="formation slide">
+                        <h4>Développeur Web</h4>
+                        <p class="date">2021 - 2023</p>
+                        <p class="description">Formation à l'école d'informatique de Paris</p>
+                    </div>
+                    <div class="formation slide">
+                        <h4>Développeur Backend</h4>
+                        <p class="date">2020 - 2021</p>
+                        <p class="description">Formation à l'école d'informatique de Paris</p>
+                    </div>
+                    <div class="formation slide">
+                        <h4>Développeur Frontend</h4>
+                        <p class="date">2019 - 2020</p>
+                        <p class="description">Formation à l'école d'informatique de Paris</p>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Section for Experiences -->
+                <div id="experiences" class="sub-section d-none">
+                </div>
+
+                <!-- Section for Interests -->
+                <div class="sub-section d-none" id="interest">
+                </div>
+
+            </section>
+            
+            <section class="section d-none" id="knowlege">
+                <h2>Compétences</h2>
+            </section>
+            <section class="section d-none" id="portfolio">
+                <h2>Portfolio</h2>
+            </section>
+            <section class="section d-none" id="contact">
+                <h2>Contact</h2>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

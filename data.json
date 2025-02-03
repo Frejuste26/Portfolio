@@ -1,0 +1,79 @@
+{
+    "formations": [
+        {
+            "logo": "./Assets/img/lms.jpg",
+            "structure": "Lycée Moderne de Songon",
+            "title": "Baccalauréat Série D"
+        },
+        {
+            "logo": "./Assets/img/esetec.jpg",
+            "structure": "Ecole Supérieur de l'Enseignement Technique et Commerciale",
+            "title": "Informatique Développeur d'Application"
+        },
+        {
+            "logo": "./Assets/img/w3school.png",
+            "structure": "W3School",
+            "title": "Certification Développeur Python"
+        },
+        {
+            "logo": "./Assets/img/istema.png",
+            "structure": "Institut Supérieur des Technologies et de Management d'Abidjan",
+            "title": "Licence Professionnelle Option Génie Logiciel"
+        }
+    ],
+
+    "experiences": [
+        {
+            "title": "Stagiaire Développeur Web",
+            "structure": "Société Ivoirienne de Béton Manufacturer",
+            "logo": "./Assets/img/sibm.png"
+        },
+        {
+            "title": "Développeur backend",
+            "structure": "GROUPE CERIN",
+            "logo": "./Assets/img/cerin.png"
+        }
+    ],
+    "interests": [
+        {
+            "title": "Intelligence Artificielle",
+            "structure": "Recherche personnelle",
+            "logo": "./Assets/img/ai.jpeg"
+        },
+        {
+            "title": "Développement Backend",
+            "structure": "Profession",
+            "logo": "./Assets/img/back.png"
+        },
+        {
+            "title": "Développement Python",
+            "structure": "Passion",
+            "logo": "./Assets/img/python.png"
+        }, 
+        {
+            "title": "Microsft Excel",
+            "structure": "Recherche personnelle",
+            "logo": "./Assets/img/Excel.png"
+        },
+        {
+            "title": "Développement Frontend",
+            "structure": "Passe temps",
+            "logo": "./Assets/img/font.png"
+        }, 
+        {
+            "title": "Jouer, Ecouter, Faire de la Musique",
+            "structure": "Passe temps",
+            "logo": "./Assets/img/music.jpeg"
+        },
+        {
+            "title": "Jouer Football",
+            "structure": "Divertissements",
+            "logo": "./Assets/img/football.jpg"
+        },
+        {
+            "title": "Jeux Videos",
+            "structure": "Divertissements",
+            "logo": "./Assets/img/game.jpeg"
+        }
+    ]
+}
