@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,10 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css">
     <link rel="stylesheet" href="./app.css">
-    <script type="module" src="./app.js" defer></script> <!-- Ajout de defer pour améliorer le chargement -->
+    <script type="module" src="./app.js" defer></script> 
+    <meta name="description" content="Portfolio de Kei Prince Frejuste - Développeur web et Backend">
+    <meta name="keywords" content="développeur web, backend, portfolio, développement">
+    <meta name="author" content="Kei Prince Frejuste">
 </head>
 <body>
     <div class="app-container">
@@ -15,6 +18,9 @@
             <div class="header">
                 <img src="./Assets/img/photo.jpg" alt="Photo de Kei Prince Frejuste" id="photo">
                 <h2 class="name">Kei Prince Frejuste</h2>
+            </div>
+            <div class="job-title">
+                <h3>Développeur web et Backend</h3>
             </div>
             <button type="button" id="downloadBtn">Télécharger CV</button>
             <div class="footer">
@@ -41,6 +47,11 @@
                     <span class="icon"><i class="fi fi-br-address-book"></i></span>
                     <span>Contact</span>
                 </a>
+                <a href="#about" class="nav-items">
+                    <span class="icon"><i class="fi fi-br-user"></i></span>
+                    <span>A Propos</span>
+                </a>
+
             </nav>
             <section class="section" id="home">
                 <h2>Bienvenue sur mon portfolio</h2>
@@ -61,22 +72,15 @@
                 </nav>
                <!-- Section for Formations -->
                <div id="formations" class="sub-section">
-                <h3>Formations</h3>
-                <div class="formations-container slider-content">
-                    <div class="formation slide">
-                        <h4>Développeur Web</h4>
-                        <p class="date">2021 - 2023</p>
-                        <p class="description">Formation à l'école d'informatique de Paris</p>
+                <div class="formations-container">
+                    <div class="loader d-none">Chargement...</div>
+                    <div class="error-message d-none">Une erreur est survenue lors du chargement des données.</div>
+                    <button id="prevBtn" aria-label="Précédent">&#10094;</button>
+                    <div class="slider-content" role="region" aria-label="Carrousel des formations">
                     </div>
-                    <div class="formation slide">
-                        <h4>Développeur Backend</h4>
-                        <p class="date">2020 - 2021</p>
-                        <p class="description">Formation à l'école d'informatique de Paris</p>
-                    </div>
-                    <div class="formation slide">
-                        <h4>Développeur Frontend</h4>
-                        <p class="date">2019 - 2020</p>
-                        <p class="description">Formation à l'école d'informatique de Paris</p>
+                    <button id="nextBtn" aria-label="Suivant">&#10095;</button>
+                    <div class="slider-indicators">
+                        <!-- Les indicateurs seront générés en JS -->
                     </div>
                 </div>
             </div>
@@ -93,13 +97,143 @@
             
             <section class="section d-none" id="knowlege">
                 <h2>Compétences</h2>
+                <div class="sub-menu">
+                    <a href="#languages" class="sub-nav-items visited">
+                        <span class="icon"><i class="fi fi-br-display-code"></i></span>
+                        <span>Langues</span>
+                    </a>
+                    <a href="#frameworks" class="sub-nav-items">
+                        <span class="icon">
+                            <i class="fi fi-br-api"></i>
+                        </span>
+                        <span>Frameworks</span>
+                    </a>
+                    <a href="#tools" class="sub-nav-items">
+                        <span class="icon">
+                            <i class="fi fi-br-tools"></i>
+                        </span>
+                        <span>Outils</span>
+                    </a>
+                    <a href="#databases" class="sub-nav-items">
+                        <span class="icon">
+                            <i class="fi fi-br-database"></i>
+                        </span>
+                        <span>Databases</span>
+                    </a>
+                    <a href="#softwares" class="sub-nav-items">
+                        <span class="icon">
+                            <i class="fi fi-br-apps-add"></i>
+                        </span>
+                        <span>Logiciels</span>
+                    </a>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-item" id="languages">
+                        <h2>Langues</h2>
+                    </div>
+                    <div class="skills-item d-none" id="frameworks">
+                        <h2>Frameworks</h2>
+                    </div>
+                    <div class="skills-item d-none" id="tools">
+                        <h2>Outils</h2>
+                    </div>
+                    <div class="skills-item d-none" id="databases">
+                        <h2>Databases</h2>
+                    </div>
+                    <div class="skills-item d-none" id="softwares">
+                        <h2>Logiciels</h2>
+                    </div>
+                </div>
             </section>
             <section class="section d-none" id="portfolio">
                 <h2>Portfolio</h2>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="Frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="Backend">Backend</button>
+                    <button class="filter-btn" data-filter="Fullstack">Fullstack</button>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- Les projets seront générés en JS -->
+                </div>
             </section>
             <section class="section d-none" id="contact">
-                <h2>Contact</h2>
+                <h2>Contactez-moi</h2>
+                <div class="contact-info">
+                    <p>
+                        Vous pouvez me contacter via mon email : <a href="mailto:kiefrejuste26@gmail.com">kiefrejuste26@gmail.com</a>
+                    </p>
+                    <p>
+                        Vous pouvez me contacter via mon numéro de téléphone : <a href="tel:+2250546930547">+225 05 46 93 05 47</a>
+                    </p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Nom</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
             </section>
+            <section class="section d-none" id="about">
+                <h2>À Propos</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Qui suis-je ?</h3>
+                        <p>Je suis un développeur Web passionné qui aime créer des applications Web, des API Backend et des expériences interactives. 
+                            Je me spécialise dans Node.js, Express, MySQL, MongoDB et j'adore travailler avec des frameworks d'interface utilisateur modernes comme Tailwind CSS. 
+                            Je connais également PHP, Vue.Js, React.js et Python. J'ai même une certification de développeur Python de W3school. 
+                            J'ai de l'expérience dans le développement d'applications de gestion des performances industrielles, de systèmes de cafétéria scolaire et de plateformes de commerce électronique, visant toujours l'efficacité et une excellente expérience utilisateur.
+                        </p>
+                        <p>
+                            Je crois fermement en la collaboration et en l'apprentissage continu. Chaque projet est une nouvelle occasion d'élargir mes compétences et de repousser les limites de ma créativité. Je suis passionné par la résolution de problèmes complexes et l'amélioration de l'expérience utilisateur.
+                        </p>
+                        <p>
+                            Mon approche du développement repose sur une écoute attentive des besoins des utilisateurs, suivie d'une phase de conception soignée. Je privilégie les méthodes agiles pour m'assurer que chaque étape du projet soit bien définie et que les attentes des clients soient pleinement respectées. L'optimisation des performances et la sécurité des applications sont des priorités pour moi à chaque étape.
+                        </p>
+                        <p>
+                            Actuellement, je travaille sur une application de gestion de performances pour une entreprise de logistique, visant à améliorer la traçabilité des expéditions et optimiser les itinéraires des livreurs. Je suis également en train de me former davantage sur l'intelligence artificielle et le machine learning, avec l'idée de les intégrer dans de futurs projets.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Années d'expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">18+</span>
+                            <span class="stat-label">Projets réalisés</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="about-extra">
+                    <h3>Loisirs et passions</h3>
+                    <p>
+                        En dehors du développement, je suis passionné par la Musique, le Football, et la découverte de nouvelles technologies. Ces activités m'aident à maintenir un équilibre dans ma vie et à nourrir ma créativité. J'aime aussi participer à des hackathons pour tester de nouvelles idées avec d'autres passionnés.
+                    </p>
+            
+                    <h3>Témoignages</h3>
+                    <blockquote>
+                        <p>"Travailler avec Kei Prince a été une expérience fantastique. Il a su comprendre nos besoins rapidement et livrer une solution qui a transformé notre manière de travailler. Sa rigueur et sa créativité font de lui un développeur hors pair." – Client satisfait</p>
+                    </blockquote>
+            
+                    <h3>Contact et réseaux sociaux</h3>
+                    <p>
+                        Vous pouvez découvrir davantage mon travail sur <a href="https://github.com/Frejuste26" target="_blank">GitHub</a>, ou suivre mes mises à jour sur <a href="https://linkedin.com/in/princekei/" target="_blank">LinkedIn</a>.
+                        <a href="https://wa.me/0546930547" target="_blank">WhatsApp</a>
+                    </p>
+                </div>
+            </section>
+            
         </main>
     </div>
 </body>
