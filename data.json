@@ -3,22 +3,26 @@
         {
             "logo": "./Assets/img/lms.jpg",
             "structure": "Lycée Moderne de Songon",
-            "title": "Baccalauréat Série D"
+            "title": "Baccalauréat Série D",
+            "diplome": "./Assets/doc/bac.pdf"
         },
         {
             "logo": "./Assets/img/esetec.jpg",
             "structure": "Ecole Supérieur de l'Enseignement Technique et Commerciale",
-            "title": "Informatique Développeur d'Application"
+            "title": "Informatique Développeur d'Application",
+            "diplome": "./Assets/doc/esetec.pdf"
         },
         {
             "logo": "./Assets/img/w3school.png",
             "structure": "W3School",
-            "title": "Certification Développeur Python"
+            "title": "Certification Développeur Python",
+            "diplome": "./Assets/doc/certificate python.pdf"
         },
         {
             "logo": "./Assets/img/istema.png",
             "structure": "Institut Supérieur des Technologies et de Management d'Abidjan",
-            "title": "Licence Professionnelle Option Génie Logiciel"
+            "title": "Licence Professionnelle Option Génie Logiciel",
+            "diplome": "./Assets/doc/licence.pdf"
         }
     ],
 
@@ -26,12 +30,16 @@
         {
             "title": "Stagiaire Développeur Web",
             "structure": "Société Ivoirienne de Béton Manufacturer",
-            "logo": "./Assets/img/sibm.png"
+            "logo": "./Assets/img/sibm.png",
+            "date": "Juin 2023 - Septembre 2023",
+            "description": "Développement d'applications web, maintenance et amélioration des systèmes existants"
         },
         {
             "title": "Développeur backend",
             "structure": "GROUPE CERIN",
-            "logo": "./Assets/img/cerin.png"
+            "logo": "./Assets/img/cerin.png",
+            "date": "Octobre 2023 - Présent",
+            "description": "Conception et développement d'APIs, gestion de bases de données, intégration de services tiers"
         }
     ],
     "interests": [
@@ -75,5 +83,364 @@
             "structure": "Divertissements",
             "logo": "./Assets/img/game.jpeg"
         }
-    ]
+    ],
+    "projects": [
+        {
+            "title": "App Météo",
+            "description": "Application de Météo",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript, OpenWeatherMap API",
+            "repository": "https://frejuste26.github.io/AppMeteo/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Dames Game",
+            "description": "Jeu de Dames",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/Dame/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "QuizIt",
+            "description": "Quiz sur l'informatique",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/QuizIt/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Portfolio",
+            "description": "Portfolio",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/Portfolio/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Background Changer",
+            "description": "Application de Background Changer",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/BackgroundChanger/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Puissance 4",
+            "description": "Jeu de Puissance 4",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/Puissance4/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Analogue Clock",
+            "description": "Horloge Analogique",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/ClockAnalogue/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "To Do List",
+            "description": "Application de To Do List",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/To-Do-List/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Digital Clock",
+            "description": "Horloge Numérique",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/DigitalClock/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Happy New Year",
+            "description": "Application de Happy New Year",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/HappyNewYear/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Memory Game",
+            "description": "Jeu de Memory",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/MemoryGame/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Stock Management API",
+            "description": "API de Gestion de Stock",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Node.js, Express, MySQL",
+            "repository": "https://github.com/frejuste26/StockManagementAPI",
+            "type": "Backend",
+            "status": "En cours"
+        },
+        {
+            "title": "eShopping",
+            "description": "API eCommerce",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Node.js, Express, MongoDB",
+            "repository": "https://github.com/frejuste26/eShopping",
+            "type": "Backend",
+            "status": "En cours"
+        },
+        {
+            "title": "WeSpeack",
+            "description": "Application de Forum",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Flask, SQLAlchemy, MySQL, JavaScript, HTML, CSS",
+            "repository": "https://github.com/frejuste26/WeSpeack",
+            "type": "Fullstack",
+            "status": "En cours"
+        },
+        {
+            "title": "API Rest",
+            "description": "API Rest",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Node.js, Express, MongoDB",
+            "repository": "https://github.com/frejuste26/mucrudapi.githnub.io",
+            "type": "Backend",
+            "status": "En cours"
+        },
+        {
+            "title": "Gestion de Stock",
+            "description": "Gestion de Stock",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Vue.js, Chart.js, Tailwind CSS",
+            "repository": "https://github.com/frejuste26/Gestion-de-Stock",
+            "type": "Frontend",
+            "status": "En cours"
+        },
+        {
+            "title": "Gestion de Cantine",
+            "description": "Gestion de Cantine",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Vue.js, Tailwind CSS, Node.js, Express, PostgreSQL",
+            "repository": "https://github.com/frejuste26/Gestion-de-Cantine",
+            "type": "Fullstack",
+            "status": "En cours"
+        },
+        {
+            "title": "Gestion de Scolarité",
+            "description": "Gestion de Scolarité",
+            "logo": "./Assets/img/folder.png",
+            "techno": "Node.js, Express, PostgreSQL, EJS, HTML, CSS, JavaScript",
+            "repository": "https://github.com/frejuste26/Gestion-de-Scolarite",
+            "type": "Fullstack",
+            "status": "En cours"
+        }
+    ],
+    "skills": {
+        "languages": [
+            {
+                "title": "HTML",
+                "icon": "./Assets/img/html.png",
+                "type": "Frontend",
+                "level": 90,
+                "description": "Les Balises, Les Attributs, Les Structures, Les Tables, Les Formulaires, Les Images, Les Liens, Les Vidéos, Les Audios, Les Iframes, Les Canvas, Les SVG, Les MathML, Les Tables, Les Formulaires, Les Images, Les Liens, Les Vidéos, Les Audios, Les Iframes, Les Canvas, Les SVG, Les MathML"
+            },
+            {
+                "title": "CSS",
+                "icon": "./Assets/img/css.png",
+                "type": "Frontend",
+                "level": 90,
+                "description": "Les Sélecteurs, Les Propriétés, Les Valeurs, Les Media Queries, Les Animations, Les Transitions, Les Transformations, Les Flexbox, Les Grid"
+            },
+            {
+                "title": "JavaScript",
+                "icon": "./Assets/img/javascript.png",
+                "type": "Frontend",
+                "level": 90,
+                "description": "Les Variables, Les Types de Données, Les Fonctions, Les Conditions, Les Boucles, Les Listes, Les Dictionnaires, Les Tuples, Les Sets, Les Fonctions Lambda, Les Expressions Régulières, Les Modules, Les Fonctions Intégrées, Les Fonctions Importées, Les Fonctions Externes"
+            },
+            {
+                "title": "Python",
+                "icon": "./Assets/img/python.png",
+                "type": "Backend",
+                "level": 50,
+                "description": "Les Variables, Les Types de Données, Les Fonctions, Les Conditions, Les Boucles, Les Listes, Les Dictionnaires, Les Tuples, Les Sets, Les Fonctions Lambda, Les Expressions Régulières, Les Modules, Les Fonctions Intégrées, Les Fonctions Importées, Les Fonctions Externes"
+            },
+            {
+                "title": "PHP",
+                "icon": "./Assets/img/php.png",
+                "type": "Backend",
+                "level": 60,
+                "description": "Les Variables, Les Types de Données, Les Fonctions, Les Conditions, Les Boucles, Les Listes, Les Dictionnaires, Les Tuples, Les Sets, Les Fonctions Lambda, Les Expressions Régulières, Les Modules, Les Fonctions Intégrées, Les Fonctions Importées, Les Fonctions Externes"
+            }
+        ],
+        "frameworks": [
+            {
+                "title": "React",
+                "icon": "./Assets/img/react.png",
+                "type": "Frontend",
+                "level": 85,
+                "description": "React avec Hooks, Context API, Redux"
+            },
+            {
+                "title": "Node.js",
+                "icon": "./Assets/img/NodeJs.png",
+                "type": "Backend",
+                "level": 80,
+                "description": "Créer des serveurs, des API, des applications web"
+            },
+            {
+                "title": "Bootstrap",
+                "icon": "./Assets/img/bootstrap.png",
+                "type": "Frontend",
+                "level": 90,
+                "description": "Bootstrap moderne, Grid, Flexbox"
+            },
+            {
+                "title": "Tailwind CSS",
+                "icon": "./Assets/img/tailwind.png",
+                "type": "Frontend",
+                "level": 60,
+                "description": "Tailwind CSS moderne, Grid, Flexbox"
+            },
+            {
+                "title": "Vue.js",
+                "icon": "./Assets/img/vue.png",
+                "type": "Frontend",
+                "level": 60,
+                "description": "Vue.js moderne, Async/Await"
+            },
+            {
+                "title": "Express",
+                "icon": "./Assets/img/express.png",
+                "type": "Backend",
+                "level": 90,
+                "description": "Créer des serveurs, des API, des applications web"
+            },
+            {
+                "title": "Flask",
+                "icon": "./Assets/img/flask.png",
+                "type": "Backend",
+                "level": 60,
+                "description": "Créer des serveurs, des API, des applications web"
+            },
+            {
+                "title": "Laravel",
+                "icon": "./Assets/img/laravel.png",
+                "type": "Backend",
+                "level": 50,
+                "description": "Créer des serveurs, des API, des applications web"
+            }
+        ],
+        "databases": [
+            {
+                "title": "MySQL",
+                "icon": "./Assets/img/mysql.png",
+                "type": "Backend",
+                "level": 90,
+                "description": "Gestion de base de données relationnelle"
+            },
+            {
+                "title": "PostgreSQL",
+                "icon": "./Assets/img/postgre.png",
+                "type": "Backend",
+                "level": 80,
+                "description": "Gestion de base de données relationnelle"
+            },
+            {
+                "title": "MongoDB",
+                "icon": "./Assets/img/mongo.png",
+                "type": "Backend",
+                "level": 70,
+                "description": "Gestion de base de données non relationnelle"
+            },
+            {
+                "title": "SQLite",
+                "icon": "./Assets/img/sqlite.jpeg",
+                "type": "Backend",
+                "level": 60,
+                "description": "Gestion de base de données relationnelle de type fichier"
+            }
+        ],
+        "tools": [
+            {
+                "title": "Git",
+                "icon": "./Assets/img/Git.png",
+                "type": "Backend",
+                "level": 90,
+                "description": "Versionner le code"
+            },
+            {
+                "title": "GitHub",
+                "icon": "./Assets/img/github.png",
+                "type": "Backend",
+                "level": 80,
+                "description": "Gestion des dépôts"
+            },
+            {
+                "title": "VSCode",
+                "icon": "./Assets/img/vscode.jpeg",
+                "type": "Backend",
+                "level": 90,
+                "description": "Editeur de code"
+            },
+            {
+                "title": "Postman",
+                "icon": "./Assets/img/postman.png",
+                "type": "Backend",
+                "level": 50,
+                "description": "Teste les API Rest"
+            },
+            {
+                "title": "Isomnia",
+                "icon": "./Assets/img/isomnia.png",
+                "type": "Backend",
+                "level": 80,
+                "description": "Teste les API Rest"
+            }
+        ],
+        "softwares": [
+            {
+                "title": "Figma",
+                "icon": "./Assets/img/figma.png",
+                "type": "Design",
+                "level": 40,
+                "description": "Créer des interfaces et des prototypes"
+            },
+            {
+                "title": "Photoshop",
+                "icon": "./Assets/img/photoshop.png",
+                "type": "Design",
+                "level": 80,
+                "description": "Créer des images et des graphiques"
+            },
+            {
+                "title": "Excel",
+                "icon": "./Assets/img/Excel.png",
+                "type": "Traitement de texte",
+                "level": 60,
+                "description": "Créer des tableaux et des graphiques"
+            },
+            {
+                "title": "Word",
+                "icon": "./Assets/img/Word.png",
+                "type": "Traitement de texte",
+                "level": 60,
+                "description": "Créer des documents professionnels"
+            }
+        ]
+    }
+
 }
