@@ -184,6 +184,51 @@
             "type": "Frontend",
             "status": "Terminé"
         },
+         {
+            "title": "TICTAC TOE",
+            "description": "Jeu tic tac toe",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/TICTACTOE/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "MOTS CACHE",
+            "description": "Jeu de Mots Caché",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/HidenWord/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Password Generator",
+            "description": "Générateur de mot de passe",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/PasswordGenerator/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Labyrithe",
+            "description": "Jeu de Labyrinthe",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://frejuste26.github.io/Labyrinthe/",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
+        {
+            "title": "PeerFood",
+            "description": "API de Gestion de Cantine scolaire",
+            "logo": "./Assets/img/floder.png",
+            "techno": "Node.js, Express, MySQL",
+            "repositery": "https://github.com/Frejuste26/peerfood",
+            "type": "Backend",
+            "status": "En cours"
+        },
         {
             "title": "Stock Management API",
             "description": "API de Gestion de Stock",
