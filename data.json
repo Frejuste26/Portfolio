@@ -31,14 +31,14 @@
             "title": "Stagiaire Développeur Web",
             "structure": "Société Ivoirienne de Béton Manufacturer",
             "logo": "./Assets/img/sibm.png",
-            "date": "Juin 2023 - Septembre 2023",
+            "date": "Mars 2024 - Aout 2024",
             "description": "Développement d'applications web, maintenance et amélioration des systèmes existants"
         },
         {
             "title": "Développeur backend",
             "structure": "GROUPE CERIN",
             "logo": "./Assets/img/cerin.png",
-            "date": "Octobre 2023 - Présent",
+            "date": "Octobre 2024 - Présent",
             "description": "Conception et développement d'APIs, gestion de bases de données, intégration de services tiers"
         }
     ],
@@ -228,6 +228,24 @@
             "repositery": "https://github.com/Frejuste26/peerfood",
             "type": "Backend",
             "status": "En cours"
+        },
+         {
+            "title": "Calaculatrice",
+            "description": "Calaculatrice Simple en Python",
+            "logo": "./Assets/img/floder.png",
+            "techno": "Python, Tkinter",
+            "repositery": "https://github.com/Frejuste26/Calculatrice",
+            "type": "Backend",
+            "status": "Terminé"
+        },
+        {
+            "title": "Equation",
+            "description": "Algorithme de Résolution d'équation du second dégré en Python",
+            "logo": "./Assets/img/floder.png",
+            "techno": "Python",
+            "repositery": "https://github.com/Frejuste26/equation-python",
+            "type": "Backend",
+            "status": "Terminé"
         },
         {
             "title": "Stock Management API",
