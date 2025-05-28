@@ -363,7 +363,7 @@
                 "title": "React",
                 "icon": "./Assets/img/react.png",
                 "type": "Frontend",
-                "level": 85,
+                "level": 50,
                 "description": "React avec Hooks, Context API, Redux"
             },
             {
