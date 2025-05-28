@@ -112,6 +112,15 @@
             "type": "Frontend",
             "status": "Terminé"
         },
+         {
+            "title": "HACKATON TEST",
+            "description": "AI HACK Challenge",
+            "logo": "./Assets/img/folder.png",
+            "techno": "HTML, CSS, JavaScript",
+            "repository": "https://github.com/Frejuste26/HACKATON-TEST",
+            "type": "Frontend",
+            "status": "Terminé"
+        },
         {
             "title": "Portfolio",
             "description": "Portfolio",
