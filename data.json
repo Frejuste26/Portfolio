@@ -117,7 +117,7 @@
             "description": "AI HACK Challenge",
             "logo": "./Assets/img/folder.png",
             "techno": "HTML, CSS, JavaScript",
-            "repository": "https://github.com/Frejuste26/HACKATON-TEST",
+            "repository": "https://hackaton-test.vercel.app/",
             "type": "Frontend",
             "status": "Terminé"
         },
