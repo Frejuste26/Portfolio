@@ -234,7 +234,16 @@
             "description": "API de Gestion de Cantine scolaire",
             "logo": "./Assets/img/floder.png",
             "techno": "Node.js, Express, MySQL",
-            "repositery": "https://github.com/Frejuste26/peerfood",
+            "repositery": "https://github.com/Frejuste26/cantine-cerin",
+            "type": "Backend",
+            "status": "En cours"
+        },
+         {
+            "title": "API PeerFood",
+            "description": "Application Frontend de Gestion de Cantine scolaire",
+            "logo": "./Assets/img/floder.png",
+            "techno": "Vue.js, Pinia",
+            "repositery": "https://github.com/Frejuste26/api-catin-cerin",
             "type": "Backend",
             "status": "En cours"
         },
@@ -302,21 +311,12 @@
             "status": "En cours"
         },
         {
-            "title": "Gestion de Cantine",
-            "description": "Gestion de Cantine",
+            "title": "SCOLARIX API",
+            "description": "Api Gestion de Scolarité",
             "logo": "./Assets/img/folder.png",
-            "techno": "Vue.js, Tailwind CSS, Node.js, Express, PostgreSQL",
-            "repository": "https://github.com/frejuste26/Gestion-de-Cantine",
-            "type": "Fullstack",
-            "status": "En cours"
-        },
-        {
-            "title": "Gestion de Scolarité",
-            "description": "Gestion de Scolarité",
-            "logo": "./Assets/img/folder.png",
-            "techno": "Node.js, Express, PostgreSQL, EJS, HTML, CSS, JavaScript",
-            "repository": "https://github.com/frejuste26/Gestion-de-Scolarite",
-            "type": "Fullstack",
+            "techno": "Node.js, Express, PostgreSQL,  JavaScript",
+            "repository": "https://github.com/Frejuste26/scolarix-api",
+            "type": "Backend",
             "status": "En cours"
         }
     ],
@@ -340,21 +340,21 @@
                 "title": "JavaScript",
                 "icon": "./Assets/img/javascript.png",
                 "type": "Frontend",
-                "level": 90,
+                "level": 60,
                 "description": "Les Variables, Les Types de Données, Les Fonctions, Les Conditions, Les Boucles, Les Listes, Les Dictionnaires, Les Tuples, Les Sets, Les Fonctions Lambda, Les Expressions Régulières, Les Modules, Les Fonctions Intégrées, Les Fonctions Importées, Les Fonctions Externes"
             },
             {
                 "title": "Python",
                 "icon": "./Assets/img/python.png",
                 "type": "Backend",
-                "level": 50,
+                "level": 40,
                 "description": "Les Variables, Les Types de Données, Les Fonctions, Les Conditions, Les Boucles, Les Listes, Les Dictionnaires, Les Tuples, Les Sets, Les Fonctions Lambda, Les Expressions Régulières, Les Modules, Les Fonctions Intégrées, Les Fonctions Importées, Les Fonctions Externes"
             },
             {
                 "title": "PHP",
                 "icon": "./Assets/img/php.png",
                 "type": "Backend",
-                "level": 60,
+                "level": 40,
                 "description": "Les Variables, Les Types de Données, Les Fonctions, Les Conditions, Les Boucles, Les Listes, Les Dictionnaires, Les Tuples, Les Sets, Les Fonctions Lambda, Les Expressions Régulières, Les Modules, Les Fonctions Intégrées, Les Fonctions Importées, Les Fonctions Externes"
             }
         ],
@@ -363,7 +363,7 @@
                 "title": "React",
                 "icon": "./Assets/img/react.png",
                 "type": "Frontend",
-                "level": 50,
+                "level": 30,
                 "description": "React avec Hooks, Context API, Redux"
             },
             {
@@ -398,7 +398,7 @@
                 "title": "Express",
                 "icon": "./Assets/img/express.png",
                 "type": "Backend",
-                "level": 90,
+                "level": 60,
                 "description": "Créer des serveurs, des API, des applications web"
             },
             {
@@ -412,7 +412,7 @@
                 "title": "Laravel",
                 "icon": "./Assets/img/laravel.png",
                 "type": "Backend",
-                "level": 50,
+                "level": 40,
                 "description": "Créer des serveurs, des API, des applications web"
             }
         ],
