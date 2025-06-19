@@ -270,7 +270,7 @@
             "description": "API de Gestion de Stock",
             "logo": "./Assets/img/folder.png",
             "techno": "Node.js, Express, MySQL",
-            "repository": "https://github.com/frejuste26/StockManagementAPI",
+            "repository": "https://github.com/Frejuste26/StockManagementAPI",
             "type": "Backend",
             "status": "En cours"
         },
@@ -279,7 +279,7 @@
             "description": "API eCommerce",
             "logo": "./Assets/img/folder.png",
             "techno": "Node.js, Express, MongoDB",
-            "repository": "https://github.com/frejuste26/eShopping",
+            "repository": "https://github.com/Frejuste26/eShopping-api",
             "type": "Backend",
             "status": "En cours"
         },
