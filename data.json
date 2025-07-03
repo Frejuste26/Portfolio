@@ -236,7 +236,7 @@
             "techno": "Node.js, Express, MySQL, NestJs",
             "repositery": "https://github.com/Frejuste26/nest-peer-food",
             "type": "Backend",
-            "status": "Terminée"
+            "status": "Terminé"
         },
          {
             "title": "PeerFood",
@@ -245,7 +245,7 @@
             "techno": "Vue.js, Pinia",
             "repositery": "https://github.com/Frejuste26/cantine-cerin",
             "type": "Frontend",
-            "status": "Terminée"
+            "status": "Terminé"
         },
          {
             "title": "Calaculatrice",
