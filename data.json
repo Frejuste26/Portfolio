@@ -230,22 +230,22 @@
             "status": "Terminé"
         },
         {
-            "title": "PeerFood",
+            "title": "PeerFood API",
             "description": "API de Gestion de Cantine scolaire",
             "logo": "./Assets/img/floder.png",
-            "techno": "Node.js, Express, MySQL",
-            "repositery": "https://github.com/Frejuste26/cantine-cerin",
+            "techno": "Node.js, Express, MySQL, NestJs",
+            "repositery": "https://github.com/Frejuste26/nest-peer-food",
             "type": "Backend",
-            "status": "En cours"
+            "status": "Terminée"
         },
          {
-            "title": "API PeerFood",
+            "title": "PeerFood",
             "description": "Application Frontend de Gestion de Cantine scolaire",
             "logo": "./Assets/img/floder.png",
             "techno": "Vue.js, Pinia",
-            "repositery": "https://github.com/Frejuste26/api-catin-cerin",
-            "type": "Backend",
-            "status": "En cours"
+            "repositery": "https://github.com/Frejuste26/cantine-cerin",
+            "type": "Frontend",
+            "status": "Terminée"
         },
          {
             "title": "Calaculatrice",
