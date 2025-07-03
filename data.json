@@ -257,6 +257,15 @@
             "status": "Terminé"
         },
         {
+            "title": "Lecteur de Flux RSS",
+            "description": "Lecteur de Flux RSS dans le terminal",
+            "logo": "./Assets/img/floder.png",
+            "techno": "Python",
+            "repositery": "https://github.com/Frejuste26/RSS-feed-reader",
+            "type": "Backend",
+            "status": "Terminé"
+        },
+        {
             "title": "Equation",
             "description": "Algorithme de Résolution d'équation du second dégré en Python",
             "logo": "./Assets/img/floder.png",
